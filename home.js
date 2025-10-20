@@ -1,0 +1,33 @@
+
+document.getElementById('reg-btn').addEventListener('click',function(){
+    document.getElementById('register-box').style.display="flex";
+    document.getElementById('login-box').style.display="none";
+    document.getElementById('login-mail').value="";
+    document.getElementById('login-password').value="";
+    document.getElementById('register-mail').value="";
+    document.getElementById('register-password').value="";
+});
+document.getElementById('log-btn').addEventListener('click',function(){
+    document.getElementById('register-box').style.display="none";
+    document.getElementById('login-box').style.display="flex";
+    document.getElementById('register-mail').value="";
+    document.getElementById('register-password').value="";
+    document.getElementById('login-mail').value="";
+    document.getElementById('login-password').value="";
+});
+document.getElementById('reg-btn-two').addEventListener('click',function(){
+    document.getElementById('register-box').style.display="flex";
+    document.getElementById('login-box').style.display="none";
+    document.getElementById('login-mail').value="";
+    document.getElementById('login-password').value="";
+    document.getElementById('register-mail').value="";
+    document.getElementById('register-password').value="";
+});
+document.getElementById('log-btn-two').addEventListener('click',function(){
+    document.getElementById('register-box').style.display="none";
+    document.getElementById('login-box').style.display="flex";
+    document.getElementById('register-mail').value="";
+    document.getElementById('register-password').value="";
+    document.getElementById('login-mail').value="";
+    document.getElementById('login-password').value="";
+});

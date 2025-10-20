@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(asset/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.logo img{
+    height: 3.5rem;
+    width: 15rem;
+}
+.nav-menu{
+    width: 40%;
+}
+.nav-menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-menu ul li{
+    list-style: none;
+    margin-top: 1rem;
+    height: 1.5rem;
+    text-align: center;
+    width: 15%;
+    color: #263353;
+    transition: 0.1s;
+}
+.nav-menu ul li:hover{
+    border-bottom: 2px solid orange;
+}
+.nav-menu ul li:hover a{
+    color: orange;
+}
+.nav-btn{
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-btn button{
+    width: 6rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #263353;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 2rem;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.nav-btn button:hover{
+    background-color: orange;
+    border: 2px solid white;
+    color: white;
+}
+.main-login-box{
+    justify-self: center;
+    align-self: center;
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: rgba(232, 159, 25, 0.321);
+    -webkit-box-shadow: 5px 6px 17px 0px rgba(247,214,123,1);
+-moz-box-shadow: 5px 6px 17px 0px rgba(247,214,123,1);
+box-shadow: 5px 6px 17px 0px rgba(247,214,123,1);
+}
+.cred-login{
+    width: 20rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.cred-login input,.submit button{
+    width: 100%;
+    height: 2.3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid #263353;
+    padding: 10px;
+    color: #263353;
+}
+.cred-login input::placeholder{
+    color: #263353;
+}
+.submit button{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #263353;
+    border-radius: 3rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.submit:hover button{
+    background-color: orange;
+}
+.main-login-box .heading h2{
+    font-size: xx-large;
+}
+.main-login-box .heading{
+    margin-top: 1rem;
+}
+.inputtwo{
+    margin-top: 1.5rem;
+}
+.new-qn{
+    margin-top: 1rem;
+}
+.new-qn p {
+    color: #263353;
+}
+.new-qn p a{
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+    margin: 5px;
+}
+.or-opt{
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #263353;
+}
+.or-opt .line{
+    width: 7rem;
+    color: #263353;
+    margin-top: 8px;
+}
+.google-login button{
+    margin-top: 1rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.google-login button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+.google-login button{
+    text-decoration: none;
+    color: inherit;
+}
+.google-login button span{
+    margin-left: 2rem;
+}
+.footer{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+.footer h4{
+    justify-self: center;
+    color: #263353;
+}
+#register-box{
+    display: none;
+}
+.new-qn-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    font-size: medium;
+}
