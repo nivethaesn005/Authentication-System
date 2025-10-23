@@ -6,7 +6,6 @@ import {
   signInWithPopup 
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
 
-// ✅ Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyApO2rk8lNiMo5B_Qm7VQO8CgtxpPe7Yxs",
   authDomain: "auth-cb6a1.firebaseapp.com",
@@ -16,12 +15,10 @@ const firebaseConfig = {
   appId: "1:362305358589:web:062c0e9540786a44f28c94"
 };
 
-// ✅ Initialize Firebase only if not already initialized
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
-// ✅ Google Login
 document.getElementById("google-log-btn").addEventListener('click', function() {
   signInWithPopup(auth, provider)
     .then((result) => {
@@ -35,7 +32,6 @@ document.getElementById("google-log-btn").addEventListener('click', function() {
     });
 });
 
-// ✅ Email & Password Login
 document.getElementById('login-submit').addEventListener('click', function() {
   const loginEmail = document.getElementById('login-mail').value;
   const loginPassword = document.getElementById('login-password').value;
