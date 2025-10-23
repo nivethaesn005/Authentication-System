@@ -2,12 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebas
 import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
 
 const firebaseConfig = {
-apiKey: "AIzaSyDrq_xGtryRBhMP1LykLOT9_xFRPlSR6qY",
-authDomain: "userauth-671f2.firebaseapp.com",
-projectId: "userauth-671f2",
-storageBucket: "userauth-671f2.firebasestorage.app",
-messagingSenderId: "164942403243",
-appId: "1:164942403243:web:d07db5579b62d6d2a109ee"
+apiKey: "AIzaSyApO2rk8lNiMo5B_Qm7VQO8CgtxpPe7Yxs",
+authDomain: "auth-cb6a1.firebaseapp.com",
+projectId: "auth-cb6a1",
+storageBucket: "auth-cb6a1.firebasestorage.app",
+messagingSenderId: "362305358589",
+appId: "1:362305358589:web:062c0e9540786a44f28c94"
 };
 
 const app = initializeApp(firebaseConfig);
